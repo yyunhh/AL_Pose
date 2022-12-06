@@ -1,0 +1,101 @@
+{
+    "python.pythonPath": "C:\\Users\\eu108\\anaconda3\\envs\\AL\\python.exe",
+    "python.linting.pylintPath": "C:\\Users\\eu108\\anaconda3\\pkgs\\pylint-2.6.0-py36_0\\Scripts\\pylint",
+    "editor.fontSize": 15,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "update.mode": "none",
+    "jupyter.experiments.optInto": [
+        
+    ],
+    "python.experiments.optInto": ["pythonDiscoveryModule"
+    
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "oneDarkPro.editorTheme": "oneDarkPro",
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.colorCustomizations": {
+        // "editor.lineHighlightBorder": "#D3D3D3"
+        // "titleBar.activeBackground":"#CB8A90",
+
+            
+    },
+    "editor.tokenColorCustomizations": {
+        "[Ayu Mirage Bordered]": {
+            //"comments":"#6495ED",// "#32CD32",
+            "textMateRules": [ 
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#CB8A90",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#6495ED",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function-call.python",
+                    "settings": {
+                        "foreground": "#F6B99D",
+                        "fontStyle": ""
+                    }
+                },
+                //variable.parameter.function.language.python
+                //	entity.other.inherited-class.python
+                //	k
+                {
+                    "scope": "entity.name.type.class.python",
+                    "settings": {
+                        "foreground":"#f5E258", //"#E97E2E",// "#EFD78D",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "variable.language.special.self.python",
+                    "settings": {
+                        "foreground":"#f5E258", //"#E97E2E",// "#EFD78D",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.codeActionsOnSave": null,
+    "editor.mouseWheelZoom": true,
+    "remote.SSH.remotePlatform": {
+        "140.114.79.188": "linux",
+        "140.114.77.35": "linux",
+        "140.114.77.32": "linux"
+    },
+    "window.zoomLevel": 1,
+    "launch": {
+    
+        "configurations": [],
+        "compounds": []
+    }
+
+
+    // "todo-tree.highlights.defaultHighlight": {
+    //     "icon": "alert",
+    //     "type": "text",
+    //     "foreground": "#6495ED",
+    //     "background": "#69CB5C",
+    //     "opacity": 50,
+    //     // "iconColour": "blue"
+    // },
+
+
+}
